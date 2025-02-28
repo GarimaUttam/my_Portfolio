@@ -4,7 +4,13 @@ import Link from 'next/link'
 import React from 'react'
 import { HiBars3BottomRight } from 'react-icons/hi2'
 
-const Nav = () => {
+
+// define props type
+type Props = {
+  openNav: () => void;
+};
+
+const Nav = ({openNav}: Props) => {
   return (
     <div className='fixed h-[12vh] z-[10] bg-blue-950 w-full'>
         <div className='flex items-center h-full justify-between w-[95%] sm:w-[90%] xl:w-[80%] mx-auto'>
@@ -33,7 +39,9 @@ const Nav = () => {
                   Hire Me
                 </button>
                 {/* Burger */}
-                <HiBars3BottomRight className='w-8 h-8 cursor-pointer text-white lg:hidden' />
+                <HiBars3BottomRight 
+                  onClick={openNav}
+                className='w-8 h-8 cursor-pointer text-white lg:hidden' />
               </div>
             </div>
         </div>
