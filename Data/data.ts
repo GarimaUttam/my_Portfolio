@@ -1,6 +1,6 @@
 export const BaseInfo = {
     name: "Garima Uttam",
-    position: "Full Stack Web Developer",
+    position: "Competitive Programmer & Web Developer",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit porro numquam ad, vero consequuntur aperiam cumque voluptatum pariatur veniam? Qui facilis est ipsam odio cum!",
     profilePic: "/images/hero.png",
