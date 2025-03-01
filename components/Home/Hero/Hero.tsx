@@ -1,4 +1,5 @@
 import { BaseInfo } from "@/Data/data";
+import Image from "next/image";
 import React from "react";
 import { FaDownload } from "react-icons/fa";
 
@@ -26,6 +27,9 @@ const Hero = () => {
             </button>
           </div>
           {/* Image Content*/}
+          <div className="mx-auto hidden lg:block rounded-[3rem] border-[3.5px] border-blue-950 overflow-x-hidden" >
+            <Image src={BaseInfo.profilePic} alt={BaseInfo.name} width={500} height={500} />
+          </div>
         </div>
       </div>
     </div>
