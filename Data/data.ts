@@ -117,64 +117,120 @@ export const BaseInfo = {
   export const skillsData = [
     {
       id: 1,
-      title: "React",
-      image: "/images/react.svg",
-      percent: "90%",
-    },
-    {
-      id: 2,
-      title: "CSS",
-      image: "/images/css.svg",
+      title: "C++",
+      image: "/images/c++.svg",
       percent: "97%",
     },
     {
-      id: 3,
-      title: "JavaScript",
-      image: "/images/js.svg",
-      percent: "77%",
-    },
-    {
-      id: 4,
-      title: "TypeScript",
-      image: "/images/ts.svg",
-      percent: "67%",
-    },
-    {
-      id: 5,
-      title: "HTML",
-      image: "/images/html.svg",
-      percent: "67%",
-    },
-    {
-      id: 6,
-      title: "Node JS",
-      image: "/images/node.svg",
-      percent: "77%",
-    },
-    {
-      id: 7,
-      title: "MongoDB",
-      image: "/images/mongo.svg",
-      percent: "65%",
-    },
-    {
-      id: 8,
+      id: 2,
       title: "Python",
       image: "/images/python.svg",
       percent: "55%",
     },
     {
+      id: 3,
+      title: "Java",
+      image: "/images/java.svg",
+      percent: "35%",
+    },
+    {
+      id: 4,
+      title: "Spring Boot",
+      image: "/images/spring_boot.svg",
+      percent: "35%",
+    },
+    {
+      id: 5,
+      title: "Golang",
+      image: "/images/goLang.svg",
+      percent: "35%",
+    },
+      {
+      id: 6,
+      title: "Angular",
+      image: "/images/angular.svg",
+      percent: "35%",
+    }, 
+    {
+      id: 7,
+      title: "Next.js",
+      image: "/images/nextjs_logo.svg",
+      percent: "35%",
+    }, 
+    {
+      id: 8,
+      title: "PostgreSQL",
+      image: "/images/postgresql.svg",
+      percent: "35%",
+    }, 
+    {
       id: 9,
+      title: "Tailwind CSS",
+      image: "/images/tailwind_logo.svg",
+      percent: "97%",
+    },
+    {
+      id: 10,
+      title: "JavaScript",
+      image: "/images/js.svg",
+      percent: "77%",
+    },
+    {
+      id: 11,
+      title: "TypeScript",
+      image: "/images/ts.svg",
+      percent: "67%",
+    },
+    {
+      id: 12,
+      title: "HTML",
+      image: "/images/html.svg",
+      percent: "67%",
+    },
+     {
+      id: 13,
+      title: "CSS",
+      image: "/images/css.svg",
+      percent: "97%",
+    },
+    {
+      id: 14,
+      title: "Node JS",
+      image: "/images/node.svg",
+      percent: "77%",
+    },
+    {
+      id: 15,
+      title: "MongoDB",
+      image: "/images/mongo.svg",
+      percent: "65%",
+    },
+    {
+      id: 16,
+      title: "React",
+      image: "/images/react.svg",
+      percent: "90%",
+    },
+    {
+      id: 17,
       title: "Firebase",
       image: "/images/firebase.svg",
       percent: "75%",
     },
     {
-      id: 10,
-      title: "Vue",
-      image: "/images/vue.svg",
+      id: 18,
+      title: "SQL",
+      image: "/images/sql_logo.svg",
+      percent: "35%",
+    }, 
+    {
+      id: 19,
+      title: "MySQL",
+      image: "/images/mysql.svg",
       percent: "35%",
     },
+    
+   
   ];
   
   export const clientReviews = [

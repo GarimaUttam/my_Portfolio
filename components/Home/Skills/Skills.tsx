@@ -13,7 +13,7 @@ const Skills = () => {
                     <div
                       data-aos="flip-left"
                       data-aos-anchor-placement="top-center"
-                      data-aos-delay={`${i * 150}`}
+                      data-aos-delay={`${(i % 5 )* 150}`}
                       key={skill.id}
                     >
                       <SkillCard skill={skill} />
