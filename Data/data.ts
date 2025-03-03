@@ -2,46 +2,46 @@ export const BaseInfo = {
     name: "Garima Uttam",
     position: "Competitive Programmer & Web Developer",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit porro numquam ad, vero consequuntur aperiam cumque voluptatum pariatur veniam? Qui facilis est ipsam odio cum!",
+      "Passionate about problem-solving and web development, with expertise in full-stack development, competitive programming, and machine learning.",
     profilePic: "/images/portfolioImg.jpg",
   };
   
   export const aboutInfo = {
-    title: "Crafting Web Application with Passion and Precision",
+    title: "Building Scalable and Efficient Software Solutions",
     description:
-      "At webdev warriors, we’re a dedicated team of designers and developers committed to delivering tailored web solutions. With a blend of creativity and technical expertise, we help businesses elevate their online presence and achieve their goals",
-    client: "50+",
-    experience: "3+",
-    project: "200+",
-    website: "100+",
+      "I'm a software engineering enthusiast with a strong foundation in algorithms, full-stack web development, and artificial intelligence. My expertise spans across competitive programming, API development, and scalable applications.",
+    client: "10+",
+    experience: "2+",
+    project: "30+",
+    website: "5+",
   };
   
   export const servicesData = [
     {
       id: 1,
-      title: " Web Applications",
-      description: "Tailored web apps built with the latest technologies.",
+      title: "Full-Stack Web Development",
+      description: "Building robust, scalable web applications using modern frameworks.",
       icon: "/images/s1.png",
     },
     {
       id: 2,
-      title: "E-commerce Websites",
+      title: "Machine Learning & AI",
       description:
-        "Secure online stores with user-friendly shopping and payments.",
+        "Developing intelligent systems using TensorFlow, Keras, and Scikit-learn.",
       icon: "/images/s2.png",
     },
     {
       id: 3,
       title: "API Integration",
       description:
-        "Seamless integration for smooth data sharing and functionality.",
+        "Designing secure and scalable RESTful and GraphQL APIs.",
       icon: "/images/s3.png",
     },
     {
       id: 4,
-      title: "User Interfaces",
+      title: "Database Design & Optimization",
       description:
-        "Engaging, responsive front-end designs for better user experiences.",
+        "Efficient database solutions using SQL, PostgreSQL, and MongoDB.",
       icon: "/images/s4.png",
     },
     {
@@ -75,22 +75,22 @@ export const BaseInfo = {
     {
       id: 1,
       image: "/images/p1.png",
-      url: "https://agency-opal-eight.vercel.app/",
+      url: "https://github.com/GarimaUttam/Easy-Study",
     },
     {
       id: 2,
       image: "/images/p2.png",
-      url: "https://burger-pearl.vercel.app/",
+      url: "https://github.com/GarimaUttam/FOODY",
     },
     {
       id: 3,
       image: "/images/p3.png",
-      url: "https://game-ecommerce-yt.vercel.app/",
+      url: "https://github.com/GarimaUttam/CourseCraft.ai",
     },
     {
       id: 4,
       image: "/images/p4.png",
-      url: "https://elearning-yt.vercel.app/",
+      url: "https://github.com/GarimaUttam/-Quality-Inspection-of-Sour-Lemons-using-Deep-Learning",
     },
     {
       id: 5,
@@ -125,43 +125,43 @@ export const BaseInfo = {
       id: 2,
       title: "Python",
       image: "/images/python.svg",
-      percent: "55%",
+      percent: "80%",
     },
     {
       id: 3,
       title: "Java",
       image: "/images/java.svg",
-      percent: "35%",
+      percent: "60%",
     },
     {
       id: 4,
       title: "Spring Boot",
       image: "/images/spring_boot.svg",
-      percent: "35%",
+      percent: "50%",
     },
     {
       id: 5,
       title: "Golang",
       image: "/images/goLang.svg",
-      percent: "35%",
+      percent: "40%",
     },
       {
       id: 6,
       title: "Angular",
       image: "/images/angular.svg",
-      percent: "35%",
+      percent: "70%",
     }, 
     {
       id: 7,
       title: "Next.js",
       image: "/images/nextjs_logo.svg",
-      percent: "35%",
+      percent: "90%",
     }, 
     {
       id: 8,
       title: "PostgreSQL",
       image: "/images/postgresql.svg",
-      percent: "35%",
+      percent: "70%",
     }, 
     {
       id: 9,
@@ -179,7 +179,7 @@ export const BaseInfo = {
       id: 11,
       title: "TypeScript",
       image: "/images/ts.svg",
-      percent: "67%",
+      percent: "75%",
     },
     {
       id: 12,
@@ -197,25 +197,25 @@ export const BaseInfo = {
       id: 14,
       title: "Node JS",
       image: "/images/node.svg",
-      percent: "77%",
+      percent: "80%",
     },
     {
       id: 15,
       title: "MongoDB",
       image: "/images/mongo.svg",
-      percent: "65%",
+      percent: "75%",
     },
     {
       id: 16,
       title: "React",
       image: "/images/react.svg",
-      percent: "90%",
+      percent: "85%",
     },
     {
       id: 17,
       title: "Firebase",
       image: "/images/firebase.svg",
-      percent: "75%",
+      percent: "70%",
     },
     {
       id: 18,
@@ -271,18 +271,18 @@ export const BaseInfo = {
   export const blogs = [
     {
       id: 1,
-      title: "Top Web Development Trends to Watch in 2024",
+      title: "Optimizing Full-Stack Applications for Performance",
       summary:
-        "Explore the key web development trends for 2024 and their impact on your business.",
-      date: "August 18, 2024",
+        "Learn about best practices to enhance web app speed and scalability.",
+      date: "February 15, 2025",
       image: "/images/b1.jpg",
     },
     {
       id: 2,
-      title: "Why Your Business Needs a Custom Web Application",
+      title: "Competitive Programming Strategies for Beginners",
       summary:
-        "Discover why custom web applications are crucial for driving business growth and efficiency.",
-      date: "August 10, 2024",
+        "techniques to improve problem-solving skills for coding contests.",
+      date: "March 5, 2025",
       image: "/images/b2.jpg",
     },
     {
@@ -296,7 +296,7 @@ export const BaseInfo = {
   ];
   
   export const contactData = {
-    phone: "+88(012345 789)",
-    email: "example@gmail.com",
-    address: "Dhaka , Bangladesh",
+    phone: "+91-898-2945-635",
+    email: "garimauttam191203@gmail.com",
+    address: "India",
   };
