@@ -11,7 +11,7 @@ const About = () => {
       <SectionHeading>About Me</SectionHeading>
       <div className="w-[80%] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8 items-center mt-20">
         {/* text content*/}
-        <div>
+        <div data-aos="fade-left" data-aos-anchor-placement="top-center">
           <h1 className="text-bg text-[26px] sm:text-3xl md:text-4xl ld:text-5xl font-bold text-gray-200">
             {aboutInfo.title}
           </h1>
@@ -47,7 +47,12 @@ const About = () => {
         </div>
 
         {/* Stats Content */}
-        <div className="grid grid-cols-2 gap-16 items-ceter lg:mx-auto">
+        <div
+          data-aos="zoom-in"
+          data-aos-anchor-placement="top-center"
+          data-aos-delay="150"
+          className="grid grid-cols-2 gap-16 items-ceter lg:mx-auto"
+        >
           {/* first stat */}
           <div>
             <Image
